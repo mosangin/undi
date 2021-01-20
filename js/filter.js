@@ -36,18 +36,18 @@ $(function () {
 			$.each(sliceData, function(idx, item){
 				var itemHTML=
 				
-				'<li class="port port1">'+
-					'<div class="title title1" style="background-image:url('+ item.imgUrl + ')">' +
-						'<div class="text_area text_area1">' +
-							'<div class="area_inner">' +
-								'<h4>'+item.title+'</h4>' +
-								' <span>'+ item.type+'</span>'+
-								' <span>'+item.desc+'</span>'+
-								'<a href="'+item.projectLink+' "target="_blank">MORE</a>'+
-							'</div> '+
-						'</div>'+
-					'</div>'+
-				'</li>';
+					'<li class="port port1">'+
+                       '<div class="title title1" style="background-image:url('+ item.imgUrl + ')">' +
+                            '<div class="text_area text_area1">' +
+                                '<div class="area_inner">' +
+                                   '<h4>'+item.title+'</h4>' +
+                                   ' <span>'+ item.type+'</span>'+
+                                   ' <span>'+item.desc+'</span>'+
+                                    '<a href="'+item.projectLink+'"  target="_blank">MORE</a>'+
+                                '</div> '+
+                            '</div>'+
+                    	'</div>'+
+					'</li>';
 					
 				
 				elements.push($(itemHTML).get(0));

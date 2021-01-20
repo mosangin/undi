@@ -30,11 +30,7 @@ $(function(){
 				$('html,body').stop().animate({scrollTop:0},1000,'swing');
 				e.preventDefault();
 			})
-
-      
-      
-      
-      
+     
       //스크롤
       
       $('#nav a, .var a').click(function(){
@@ -46,41 +42,27 @@ $(function(){
       return false;
     });
 
+ 
+    //스크롤할때 자연스럽게
+    function isElementUnderBottom(elem, triggerDiff) {
+      const { top } = elem.getBoundingClientRect();
+      const { innerHeight } = window;
+      return top > innerHeight + (triggerDiff || 0);
+    }
     
-    // $('.more').click(function(){
-    //   $('.port_wrap').css({height: '950px'});
-    //   $('.m_li').show();
-    //   $('.close').css("display","block");
-    //   $('.more').hide();
-    // })
-    // $('.close').click(function(){
-    //   $('.port_wrap').animate({height: '650px'}, 500);
-    //   $('.m_li').hide();
-    //   $('.close').hide();
-    //   $('.more').show();
-    // })
-   
-
-      //스크롤할때 자연스럽게
-      function isElementUnderBottom(elem, triggerDiff) {
-        const { top } = elem.getBoundingClientRect();
-        const { innerHeight } = window;
-        return top > innerHeight + (triggerDiff || 0);
-      }
-      
-      function handleScroll() {
-        const elems = document.querySelectorAll('.up-on-scroll');
-        elems.forEach(elem => {
-          if (isElementUnderBottom(elem, -20)) {
-            elem.style.opacity = "0";
-            elem.style.transform = 'translateY(70px)';
-          } else {
-            elem.style.opacity = "1";
-            elem.style.transform = 'translateY(0px)';
-          }
-        })
-      }
-      
-      window.addEventListener('scroll', handleScroll);
+    function handleScroll() {
+      const elems = document.querySelectorAll('.up-on-scroll');
+      elems.forEach(elem => {
+        if (isElementUnderBottom(elem, -20)) {
+          elem.style.opacity = "0";
+          elem.style.transform = 'translateY(70px)';
+        } else {
+          elem.style.opacity = "1";
+          elem.style.transform = 'translateY(0px)';
+        }
+      })
+    }
+    
+    window.addEventListener('scroll', handleScroll);
 
 });

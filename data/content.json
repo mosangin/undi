@@ -25,15 +25,14 @@
 		"desc":"작업: 메인페이지,서브페이지<br>영풍문고의 모바일버전을<br>figma로 디자인 후 리뉴얼하여 만든 페이지입니다.",
 		"type":"구분: 모바일 페이지",
 		"imgUrl":"img/yp.png",
-		"projectLink":"#"
+		"projectLink":"javascript:void(window.open('http://msi0616.dothome.co.kr/portfolio/YP/', '모바일','width=385, height=860 , top=100 , left=300'));"
 	},
 	{
 		"title":"OCN",
 		"desc":"작업: 메인,반응형 - 수정중<br>ocn사이트를 반응형으로 제작중입니다.",
 		"type":"구분: 반응형 페이지",
 		"imgUrl":"img/OCN.png",
-		"projectLink":"http://msi0616.dothome.co.kr/portfolio/ocn",
-		"click":""
+		"projectLink":"http://msi0616.dothome.co.kr/portfolio/ocn"
 	},
 	{
 		"title":"작업중",
