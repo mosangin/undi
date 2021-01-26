@@ -29,7 +29,7 @@
 	},
 	{
 		"title":"OCN",
-		"desc":"작업: 메인,반응형 - 수정중<br>ocn사이트를 반응형으로 제작중입니다.",
+		"desc":"작업: 메인,반응형<br>ocn사이트를 데스크탑,태블릿,모바일에 보이도록 만든 반응형 웹페이지입니다.",
 		"type":"구분: 반응형 페이지",
 		"imgUrl":"img/OCN.png",
 		"projectLink":"http://msi0616.dothome.co.kr/portfolio/ocn"
