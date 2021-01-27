@@ -1,11 +1,11 @@
 body{background: #f4f4f4; }
 #wrap{width: 100%; margin: 0 auto; font-family: 'Noto Sans', sans-serif;}
 header{width: 100%; height: 80px; background: rgba(255,255,255,.4); z-index: 100; position: fixed; }
-#banner{width: 100%; height: 950px; position: relative;}
+#banner{width: 100%; height: 100vh; position: relative;}
 #about{width: 100%; height: 950px;}
 #skill{width: 100%; height: 950px;}
 #portfolio{width: 100%;}
-#contact{width: 100%; height: 680px; background: url(../img/contac.png) no-repeat center center /100% 100%; background-attachment: fixed}
+#contact{width: 100%; height: 680px; background: url(../img/contac.png) no-repeat center center /cover; background-attachment: fixed}
 #footer{width: 100%; height: 50px; background: #333;}
 
 /* scroll */
@@ -51,7 +51,7 @@ header nav ul li a:hover{border-bottom: 3px solid #333;}
 #skill .con2 .skill_inner .progress .bar{height: 100%; background: #000;border-radius: 5px; animation: animate 1.5s;}
 #skill .con2 .skill_inner .progress .bar1{width: 90%;}
 #skill .con2 .skill_inner .progress .bar2{width: 80%;}
-#skill .con2 .skill_inner .progress .bar3{width: 20%;}
+#skill .con2 .skill_inner .progress .bar3{width: 30%;}
 #skill .con2 .skill_inner .progress .bar4{width: 50%;}
 #skill .con2 .skill_inner .progress .bar5{width: 60%;}
 
