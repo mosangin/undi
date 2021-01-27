@@ -78,7 +78,7 @@ header nav ul li a:hover{border-bottom: 3px solid #333;}
 
 /* 연락처*/
 #contact .con4{width: 65%; margin: 0 auto;}
-#contact .con4 h2{font-size: 40px; padding-top: 50px; margin: 0 auto; border-bottom: 4px solid #d78fa3; width: 181px;}
+#contact .con4 h2{font-size: 40px; padding-top: 50px; margin: 0 auto; border-bottom: 4px solid #d78fa3; width: 183px;}
 #contact .con4 .contact_inner{width: 600px; height: 300px; margin: 0 auto; background: rgba(0,0,0,.7); margin-top: 40px; margin-bottom: 40px; font-family: 'S-CoreDream-3Light';}
 #contact .con4 .contact_inner ul{padding: 45px;}
 #contact .con4 .contact_inner ul li{ text-align: center; margin-top: 5px;}

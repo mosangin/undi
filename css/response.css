@@ -39,7 +39,14 @@
     #portfolio .port_wrap .port .title .text_area h4{font-size: 25px;}
     #portfolio .port_wrap .port .title .text_area span{font-size: 13px;}
     #portfolio .port_wrap .port:nth-child(4) .title .text_area span{font-size: 12px;}
-    #contact .con4{width: 70%;}
+    #contact{height: 550px;}
+    #contact .con4{width: 90%;}
+    #contact .con4 p{font-size: 21px;}
     #contact .con4 .contact_inner{height: auto;}
-    #contact .con4 .contact_inner ul li span{font-size: 19px;}
+    #contact .con4 .contact_inner ul{padding: 40px;}
+    #contact .con4 .contact_inner ul li{margin-top: 10px;}
+    #contact .con4 .contact_inner ul li span{font-size: 17px;}
+    #footer p{font-size: 12px;}
+    aside div{width: 20px; height: 20px; padding: 10px; margin-right: 3px;}
+    aside div .top{font-size: 10px;}
 }
