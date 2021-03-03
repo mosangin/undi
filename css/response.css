@@ -27,6 +27,7 @@
     #portfolio .port_wrap .port .title .text_area a{font-size: 14px;}
     /* 연락처 */
     #contact .con4 .contact_inner{width: 80%;}
+    #contact .con4 .contact_inner ul{padding: 10%;}
 }
 
 
