@@ -34,13 +34,22 @@ $(function(){
       //스크롤
       
       $('#nav a, .var a').click(function(){
-        var $elem = $($(this).attr("href"));
+      var $elem = $($(this).attr("href"));
       var offset = $elem.offset().top - ($(window).height() / 2) + ($elem.height() / 2);
       $('html, body').animate({
         scrollTop: offset
       }, 400);
       return false;
     });
+    //배너 화살표 스크롤 
+    $('.scroll a').click(function(){
+      var $elem = $($(this).attr("href"));
+      var offset = $elem.offset().top - ($(window).height() / 2) + ($elem.height() / 2);
+    $('html, body').animate({
+      scrollTop: offset
+    }, 600);
+    return false;
+  });
 
  
     //스크롤할때 자연스럽게
