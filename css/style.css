@@ -1,6 +1,6 @@
 body{background: #f4f4f4; }
 #wrap{width: 100%; margin: 0 auto; font-family: 'Noto Sans', sans-serif;}
-header{width: 100%; height: 80px; background: rgba(255,255,255,.4); z-index: 100; position: fixed; }
+header{width: 100%; height: 80px; background: rgba(255,255,255,.9); z-index: 100; position: fixed; }
 #banner{width: 100%; height: 100vh; position: relative;}
 #about{width: 100%; height: 950px;}
 #skill{width: 100%; height: 950px;}
@@ -28,7 +28,7 @@ header nav ul li a:hover{border-bottom: 3px solid #000;}
 #banner .text_box{position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: rgba(235,235,235,.1);}
 #banner .text{position: absolute; top: 30%; left: 0; right: 0; bottom: 0; text-align: center; height: 20% ;}
 #banner .text strong{font-size: 75px; line-height: 1.1; }
-#banner .text strong .color1{color: lightgrey; text-shadow: 0 1px #000;}
+#banner .text strong .color1{color: #e6e1e5; text-shadow: 0 1px #000;}
 #banner .text strong .color2{color: #fff; text-shadow: 0 1px #000;}
 #banner .text p{font-size: 25px; text-align: center; margin-top: 35px; color: #fff; line-height: 1.4;  font-family: 'S-CoreDream-5Medium';}
 #banner .scroll{}
@@ -107,10 +107,10 @@ border-bottom: 1px solid #fff; -webkit-transform: rotate(-45deg); transform: rot
 #portfolio .close{width: 130px; height: 45px; margin: 0 auto; display: block; text-align: center; line-height: 45px; margin-top: 45px; border: 2px solid #333; box-sizing: border-box; color: #333; border: 2px solid #333; box-sizing: border-box; border-radius: 30px; display: none;}
 
 /* 연락처*/
-#contact .con4{width: 50%; margin: 0 auto;}
+#contact .con4{width: 35%; margin: 0 auto;}
 #contact .con4 h2{font-size: 40px; padding-top: 50px; margin: 0 auto; border-bottom: 4px solid #d78fa3; width: 183px;}
-#contact .con4 .contact_inner{width: 100%; height: 300px; margin: 0 auto; background: rgba(0,0,0,.7); margin-top: 40px; margin-bottom: 40px; font-family: 'S-CoreDream-3Light';}
-#contact .con4 .contact_inner ul{padding: 45px;}
+#contact .con4 .contact_inner{width: 100%; margin: 0 auto; background: rgba(0,0,0,.7); margin-top: 22%; margin-bottom: 40px; font-family: 'S-CoreDream-3Light';}
+#contact .con4 .contact_inner ul{padding: 7%;}
 #contact .con4 .contact_inner ul li{ text-align: center; margin-top: 5px;}
 #contact .con4 .contact_inner ul li span{display: block; color: #fff; line-height: 1.5; font-size: 24px;}
 #contact .con4 .contact_inner ul li span.tit{font-size: 18px; font-weight: bold;}

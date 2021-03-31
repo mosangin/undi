@@ -27,8 +27,8 @@
     #portfolio .port_wrap .port .title .text_area span{font-size: 15px;}
     #portfolio .port_wrap .port .title .text_area a{font-size: 14px;}
     /* 연락처 */
+    #contact .con4{width: 50%;}
     #contact .con4 .contact_inner{width: 100%;}
-    #contact .con4 .contact_inner ul{padding: 10%;}
 }
 
 
@@ -45,7 +45,6 @@
     #contact .con4{width: 90%;}
     #contact .con4 p{font-size: 21px;}
     #contact .con4 .contact_inner{height: auto;}
-    #contact .con4 .contact_inner ul{padding: 40px;}
     #contact .con4 .contact_inner ul li{margin-top: 10px;}
     #contact .con4 .contact_inner ul li span{font-size: 17px;}
     #footer p{font-size: 12px;}
