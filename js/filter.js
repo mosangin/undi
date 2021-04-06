@@ -59,13 +59,13 @@ $(function () {
 
 
 			
-			// var portfolioContainer=$('.port_wrap');
+			// var portfolioContainer=$('.port');
 			// var mixer = mixitup(portfolioContainer, {
 			// 	selectors: {
 			// 		target: '.title'
 			// 	},
 			// 	animation: {
-			// 		duration: 300
+			// 		duration: 300	
 			// 	}
 			// });
 			// mixer.forceRefresh();

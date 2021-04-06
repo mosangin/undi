@@ -31,7 +31,6 @@ header nav ul li a:hover{border-bottom: 3px solid #000;}
 #banner .text strong .color1{color: #e6e1e5; text-shadow: 0 1px #000;}
 #banner .text strong .color2{color: #fff; text-shadow: 0 1px #000;}
 #banner .text p{font-size: 25px; text-align: center; margin-top: 35px; color: #fff; line-height: 1.4;  font-family: 'S-CoreDream-5Medium';}
-#banner .scroll{}
 #banner .scroll a{display: block; padding-top: 60px;}
 #banner .scroll a span{position: absolute; bottom: 50px; left: 50%; width: 24px; height: 24px; margin-left: -12px; border-left: 1px solid #fff;
 border-bottom: 1px solid #fff; -webkit-transform: rotate(-45deg); transform: rotate(-45deg); -webkit-animation: sdb 2s infinite; animation: sdb 2s infinite; box-sizing: border-box;}
