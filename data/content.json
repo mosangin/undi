@@ -25,7 +25,8 @@
 		"desc":"작업: 메인페이지,서브페이지<br>영풍문고의 모바일버전을<br>figma로 디자인 후 리뉴얼하여 만든 페이지입니다.",
 		"type":"구분: 모바일 페이지",
 		"imgUrl":"img/yp.png",
-		"projectLink":"javascript:void(window.open('http://msi0616.dothome.co.kr/portfolio/YP/', '모바일','width=385, height=860 , top=100 , left=300'));"
+		"projectLink":"http://msi0616.dothome.co.kr/portfolio/YP"
+		
 	},
 	{
 		"title":"OCN",

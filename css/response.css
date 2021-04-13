@@ -4,8 +4,8 @@
 
 @media (max-width: 768px){
     header .inner{width: 100%; height:100%; margin: 0 auto; position: relative;}
-    header nav{width: 44px; height: 50px; margin: 15px 10px;}
-    header nav .fas{font-size: 50px; display: block;}
+    header nav{width: 44px; height: 40px; margin: 10px 10px;}
+    header nav .fas{font-size: 40px; display: block;}
     header .var{width: 100%; background: #000; position: absolute; top: 80px;}
     header .var ul li{height: 50px; line-height:50px; width: 100%; text-align: center;}
     header .var ul li a{color: #fff; font-size: 16px; font-weight: bold;}
@@ -22,7 +22,7 @@
     /* 포트폴리오 */
     #portfolio{margin-top: 100px;}
     #portfolio .con3{width: 100%;}
-    #portfolio .port_wrap .port{width: 45%;}
+    #portfolio .port_wrap .port{width: 70%;}
     #portfolio .port_wrap .port .title .text_area h4{font-size: 30px;}
     #portfolio .port_wrap .port .title .text_area span{font-size: 15px;}
     #portfolio .port_wrap .port .title .text_area a{font-size: 14px;}

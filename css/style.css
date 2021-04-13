@@ -1,9 +1,9 @@
 body{background: #f4f4f4; }
 #wrap{width: 100%; margin: 0 auto; font-family: 'Noto Sans', sans-serif;}
-header{width: 100%; height: 80px; background: rgba(255,255,255,.9); z-index: 100; position: fixed; }
+header{width: 100%; height: 60px; background: #f5f5f5; z-index: 100; position: fixed; box-shadow: 1px 0px 3px rgb(0 0 0 / 40%)}
 #banner{width: 100%; height: 100vh; position: relative;}
 #about{width: 100%; height: 950px;}
-#skill{width: 100%; height: 950px;}
+#skill{width: 100%; height: 850px;}
 #portfolio{width: 100%;}
 #contact{width: 100%; height: 680px; background: url(../img/contac.png) no-repeat center center /cover; background-attachment: fixed}
 #footer{width: 100%; height: 50px; background: #333;}
@@ -13,15 +13,15 @@ header{width: 100%; height: 80px; background: rgba(255,255,255,.9); z-index: 100
 
 /* 헤더 */
 header .inner{width: 95%; margin: 0 auto;}
-header h2{width: 200px; height: 80px;line-height: 80px;float: left; text-align: center;}
-header h2 a{width: 100%; height:100%; font-size: 32px; color: #000;}
+header h2{width: 200px; height: 60px;line-height: 60px;float: left; text-align: center;}
+header h2 a{width: 100%; height:100%; font-size: 30px; color: #000;}
 header nav{float: right; width: 40%;}
 header nav .fas{display: none;}
 header .var{display: none;}
 header nav ul{display: flex; justify-content: space-between;}
-header nav ul li{height: 80px; text-align: center; line-height: 80px;}
-header nav ul li a{font-size: 20px; display: block; color: #000; font-weight: bold; height: 58px;}
-header nav ul li a:hover{border-bottom: 3px solid #000;} 
+header nav ul li{height: 60px; text-align: center; line-height: 60px;}
+header nav ul li a{font-size: 20px; display: block; color: #444; font-weight: bold; height: 48px;}
+header nav ul li a:hover{border-bottom: 3px solid #000; color: #000} 
 
 /* 배너 */
 #banner img{width: 100%; height: 100%;}
@@ -85,12 +85,12 @@ border-bottom: 1px solid #fff; -webkit-transform: rotate(-45deg); transform: rot
 #skill .con2 .skill_inner .progress .bar5{width: 60%;}
 
 /* 포트폴리오 */
-#portfolio .con3{width: 65%; margin: 0 auto; }
+#portfolio .con3{width: 85%; margin: 0 auto; padding-bottom: 20px;}
 #portfolio .con3 h2{font-size: 40px; padding-top: 50px; margin: 0 auto; border-bottom: 4px solid #e1c360; width: 221px;}
 #portfolio .port_wrap{width: 100%;  margin-top: 60px; display: flex; justify-content: space-around; flex-wrap: wrap; }
-#portfolio .port_wrap .port{width: 40%; height: 300px; position: relative; border: 2px solid #ccc; box-sizing: border-box; margin-bottom: 20px;}
+#portfolio .port_wrap .port{width: 32%; height: 300px; position: relative; border: 2px solid #ccc; box-sizing: border-box; margin-bottom: 20px;}
 #portfolio .port_wrap .port:hover .title .text_area{opacity: 1;}
-#portfolio .port_wrap .port .title{width: 100%; height: 100%; background: center center/cover;}
+#portfolio .port_wrap .port .title{width: 100%; height: 100%; background: center center/105% 100%;}
 #portfolio .port_wrap .port:nth-child(6){background: #e1c360}
 #portfolio .port_wrap .port:nth-child(6) .title{background: no-repeat 50% 50%;}
 #portfolio .port_wrap .port .title .text_area{width: 100%; height: 100%; background: rgba(0,0,0,.8); position: relative; opacity: 0;  transition:all 0.3s ease; font-family: 'S-CoreDream-5Medium'}
@@ -118,7 +118,7 @@ border-bottom: 1px solid #fff; -webkit-transform: rotate(-45deg); transform: rot
 #footer p{line-height: 50px; text-align: center; color: #fff; }
 
 /* go to top */
-aside div {width: 25px; height: 25px; background: rgba(255,255,255,.6); border: 1px solid #333; text-align: center; padding: 20px; margin-right: 20px; margin-bottom: 20px; position: fixed; right: 0; bottom: 0; border-radius: 50%; line-height: 25px;}
+aside div {width: 25px; height: 25px; background: rgba(255,255,255,.6); border: 1px solid #333; text-align: center; padding: 10px; margin-right: 20px; margin-bottom: 20px; position: fixed; right: 0; bottom: 0; line-height: 25px;}
 aside div .top {color: #333; display: block; text-decoration: none; font-weight: bold; font-size: 12px;}
 aside div {display: none;}
 

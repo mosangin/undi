@@ -1,7 +1,7 @@
 $(function () {
 	var $container=$('.port_wrap'),
 		$loadMoreBtn=$('.more'),
-		$addItemCount=4,//클릭할때마다 8개씩 나오는 갯수
+		$addItemCount=3,//클릭할때마다 8개씩 나오는 갯수
 		$added=0,//더보기버튼 클릭 다나오면 사라지는 용도
 		$allData=[];
 		
@@ -43,7 +43,7 @@ $(function () {
                                    '<h4>'+item.title+'</h4>' +
                                    ' <span>'+ item.type+'</span>'+
                                    ' <span>'+item.desc+'</span>'+
-                                    '<a href="'+item.projectLink+'"  target="_blank">MORE</a>'+
+                                    '<a href="'+item.projectLink+' "target="_blank">MORE</a>'+
                                 '</div> '+
                             '</div>'+
                     	'</div>'+
