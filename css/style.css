@@ -1,4 +1,4 @@
-body{background: #f4f4f4; }
+body{background: #f0f0f0}
 #wrap{width: 100%; margin: 0 auto; font-family: 'Noto Sans', sans-serif;}
 header{width: 100%; height: 60px; background: #f5f5f5; z-index: 100; position: fixed; box-shadow: 1px 0px 3px rgb(0 0 0 / 40%)}
 #banner{width: 100%; height: 100vh; position: relative;}
@@ -27,9 +27,7 @@ header nav ul li a:hover{border-bottom: 3px solid #000; color: #000}
 #banner img{width: 100%; height: 100%; object-fit: cover;}
 #banner .text_box{position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: rgba(235,235,235,.1);}
 #banner .text{position: absolute; top: 30%; left: 0; right: 0; bottom: 0; text-align: center; height: 20% ;}
-#banner .text strong{font-size: 75px; line-height: 1.1; }
-#banner .text strong .color1{color: #e6e1e5; text-shadow: 0 1px #000;}
-#banner .text strong .color2{color: #fff; text-shadow: 0 1px #000;}
+#banner .text strong{font-size: 75px; line-height: 1.1; color: #fff; text-shadow: 0 1px #000}
 #banner .text p{font-size: 25px; text-align: center; margin-top: 35px; color: #fff; line-height: 1.4;  font-family: 'S-CoreDream-5Medium';}
 #banner .scroll a{display: block; padding-top: 60px;}
 #banner .scroll a span{position: absolute; bottom: 50px; left: 50%; width: 24px; height: 24px; margin-left: -12px; border-left: 1px solid #fff;
@@ -90,9 +88,7 @@ border-bottom: 1px solid #fff; -webkit-transform: rotate(-45deg); transform: rot
 #portfolio .port_wrap{width: 100%;  margin-top: 60px; display: flex; justify-content: space-around; flex-wrap: wrap; }
 #portfolio .port_wrap .port{width: 32%; height: 300px; position: relative; border: 2px solid #ccc; box-sizing: border-box; margin-bottom: 20px;}
 #portfolio .port_wrap .port:hover .title .text_area{opacity: 1;}
-#portfolio .port_wrap .port .title{width: 100%; height: 100%; background: center center/105% 100%;}
-#portfolio .port_wrap .port:nth-child(6){background: #e1c360}
-#portfolio .port_wrap .port:nth-child(6) .title{background: no-repeat 50% 50%;}
+#portfolio .port_wrap .port .title{width: 100%; height: 100%; background: center center/107% 100%}
 #portfolio .port_wrap .port .title .text_area{width: 100%; height: 100%; background: rgba(0,0,0,.8); position: relative; opacity: 0;  transition:all 0.3s ease; font-family: 'S-CoreDream-5Medium'}
 #portfolio .port_wrap .port .title .text_area .area_inner{padding: 10px; height: 100%; width: 100%;  box-sizing: border-box; line-height: 2; position: relative;}
 #portfolio .port_wrap .port .title .text_area h4{font-size: 35px; color: #fff; text-align: center;} 
@@ -100,7 +96,6 @@ border-bottom: 1px solid #fff; -webkit-transform: rotate(-45deg); transform: rot
 #portfolio .port_wrap .port .title .text_area a{display: block; width: 100px; height: 50px; line-height: 50px; border: 3px solid #e1c360; text-align: center; margin: 0 auto; font-size: 16px; color: #fff; border-radius: 30px; position: absolute; bottom: 15px; left: 50%; transform: translateX(-50%);}
 #portfolio .port_wrap .port .title .text_area a:hover{background: #fff; color: #000;}
 #portfolio button{background: 0; border: 0; transition: all .3s; cursor: pointer;}
-#portfolio .port_wrap .port:nth-child(6) .title .text_area a{display: none;}
 #portfolio button:hover{background: #333; color: #fff;}
 #portfolio .more{width: 130px; height: 45px; margin: 0 auto; display: block; text-align: center; line-height: 45px; margin-top: 45px; border: 2px solid #333; box-sizing: border-box; color: #333; border: 2px solid #333; box-sizing: border-box; border-radius: 30px; }
 #portfolio .close{width: 130px; height: 45px; margin: 0 auto; display: block; text-align: center; line-height: 45px; margin-top: 45px; border: 2px solid #333; box-sizing: border-box; color: #333; border: 2px solid #333; box-sizing: border-box; border-radius: 30px; display: none;}
@@ -118,9 +113,9 @@ border-bottom: 1px solid #fff; -webkit-transform: rotate(-45deg); transform: rot
 #footer p{line-height: 50px; text-align: center; color: #fff; }
 
 /* go to top */
-aside div {width: 25px; height: 25px; background: rgba(255,255,255,.6); border: 1px solid #333; text-align: center; padding: 10px; margin-right: 20px; margin-bottom: 20px; position: fixed; right: 0; bottom: 0; line-height: 25px;}
-aside div .top {color: #333; display: block; text-decoration: none; font-weight: bold; font-size: 12px;}
-aside div {display: none;}
+aside div {width: 45px; height: 45px; position: fixed; right: 10px; bottom: 30px; display: none;}
+aside div .top{display: block;}
+aside div .top img{width: 100%; height: 100%;}
 
 
 /* s-cord-dream */

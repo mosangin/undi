@@ -1,7 +1,21 @@
-[
+[	
+	{
+		"title":"SK바이오팜",
+		"desc":"작업: 메인,반응형<br>SK바이오팜 사이트를 반응형으로 제작했습니다.",
+		"type":"구분: 반응형 페이지",
+		"imgUrl":"img/SK1.png",
+		"projectLink":"http://msi0616.dothome.co.kr/portfolio/sk"	
+	},
+	{
+		"title":"OCN",
+		"desc":"작업: 메인,반응형<br>OCN사이트를 반응형으로 제작했습니다.",
+		"type":"구분: 반응형 페이지",
+		"imgUrl":"img/OCN.png",
+		"projectLink":"http://msi0616.dothome.co.kr/portfolio/ocn"
+	},
 	{
 		"title":"권선구청",
-		"desc":"작업: 메인,서브페이지<br>5개의 서브페이지와 처음 만든 사이트로 css를 주로 활용하였습니다.",
+		"desc":"작업: 메인,서브페이지<br>5개의 서브페이지와 처음 만든 사이트로<br>css를 주로 활용하였습니다.",
 		"type":"구분: 홈페이지(관공서)",
 		"imgUrl":"img/kwonsun.png",
 		"projectLink":"http://msi0616.dothome.co.kr/portfolio/kwonsun/index01.html"	
@@ -27,20 +41,5 @@
 		"imgUrl":"img/yp.png",
 		"projectLink":"http://msi0616.dothome.co.kr/portfolio/YP"
 		
-	},
-	{
-		"title":"OCN",
-		"desc":"작업: 메인,반응형<br>ocn사이트를 데스크탑,태블릿,모바일에 보이도록 만든 반응형 웹페이지입니다.",
-		"type":"구분: 반응형 페이지",
-		"imgUrl":"img/OCN.png",
-		"projectLink":"http://msi0616.dothome.co.kr/portfolio/ocn"
-	},
-	{
-		"title":"작업중",
-		"desc":"",
-		"type":"",
-		"imgUrl":"img/sandglass.png",
-		"projectLink":""	
 	}
-
 ]
