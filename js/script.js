@@ -1,4 +1,21 @@
 $(function(){
+
+  //스크롤시 header
+  $(function(){
+    var shrinkHeader = 300;
+      $(window).scroll(function(){
+        var scroll = getCurrentScroll();
+          if(scroll >= shrinkHeader){
+            $('#header').addClass('active');
+          }else{
+            $('#header').removeClass('active');
+          }
+      });
+      function getCurrentScroll(){
+        return window.pageYOffset || document.documentElement.scrollTop;
+      }
+  });
+  
     var pull    = $('.fas');
       menu    = $('.var');
       menuHeight  = menu.height();
