@@ -6,7 +6,7 @@
     header .inner{width: 100%; height:100%; margin: 0 auto; position: relative;}
     header nav{width: 44px; height: 40px; margin: 10px 10px;}
     header nav .fas{font-size: 40px; display: block; color: #fff;}
-    header .var{width: 100%; background: #000; position: absolute; top: 60px;}
+    header .var{width: 100%; background: rgba(24, 24, 24, 0.9); position: absolute; top: 60px;}
     header .var ul li{height: 50px; line-height:50px; width: 100%; text-align: center;}
     header .var ul li:hover{background: #777;}
     header .var ul li a{color: #fff; font-size: 16px; font-weight: bold;}
