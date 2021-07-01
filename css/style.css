@@ -85,10 +85,10 @@ border-bottom: 3px solid #fff; -webkit-transform: rotate(-45deg); transform: rot
 /* 포트폴리오 */
 #portfolio .con3{width: 85%; margin: 0 auto; padding-bottom: 40px;}
 #portfolio .con3 h2{font-size: 40px; padding-top: 50px; margin: 0 auto; border-bottom: 4px solid #e1c360; width: 221px;}
-#portfolio .port_wrap{width: 100%;  margin-top: 60px; display: flex; justify-content: space-around; flex-wrap: wrap; }
+#portfolio .port_wrap{width: 100%;  margin-top: 60px; display: flex; justify-content: space-between; flex-wrap: wrap; }
 #portfolio .port_wrap .port{width: 32%; height: 300px; position: relative; border: 2px solid #ccc; box-sizing: border-box; margin-bottom: 20px;}
 #portfolio .port_wrap .port:hover .title .text_area{opacity: 1;}
-#portfolio .port_wrap .port .title{width: 100%; height: 100%; background: center center/107% 100%}
+#portfolio .port_wrap .port .title{width: 100%; height: 100%; background: center center/107% 100% no-repeat}
 #portfolio .port_wrap .port .title .text_area{width: 100%; height: 100%; background: rgba(0,0,0,.8); position: relative; opacity: 0;  transition:all 0.3s ease;}
 #portfolio .port_wrap .port .title .text_area .area_inner{padding: 10px; height: 100%; width: 100%;  box-sizing: border-box; line-height: 2; position: relative;}
 #portfolio .port_wrap .port .title .text_area h4{font-size: 35px; color: #fff; text-align: center;} 

@@ -21,11 +21,11 @@
 		"projectLink":"http://msi0616.dothome.co.kr/portfolio/kwonsun/index01.html"	
 	},
 	{
-		"title":"Line",
-		"desc":"작업: 메인,sass페이지<br>sass를 활용해 제작한 페이지입니다.",
+		"title":"한글과컴퓨터",
+		"desc":"작업: 메인페이지(반응형으로 수정중)<br>한글과 컴퓨터의 사이트를<br>클론코딩 하였습니다.",
 		"type":"구분: 홈페이지",
-		"imgUrl":"img/Line.png",
-		"projectLink":"http://msi0616.dothome.co.kr/portfolio/sass page"	
+		"imgUrl":"img/hancom.png",
+		"projectLink":"http://msi0616.dothome.co.kr/portfolio/hancom"
 	},
 	{
 		"title":"tamniq",
@@ -40,5 +40,12 @@
 		"type":"구분: 모바일 페이지",
 		"imgUrl":"img/yp.png",
 		"projectLink":"http://msi0616.dothome.co.kr/portfolio/YP"
+	},
+	{
+		"title":"Line",
+		"desc":"작업: 메인,sass페이지<br>sass를 활용해 제작한 페이지입니다.",
+		"type":"구분: 홈페이지",
+		"imgUrl":"img/Line.png",
+		"projectLink":"http://msi0616.dothome.co.kr/portfolio/sass page"	
 	}
 ]
