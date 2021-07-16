@@ -2,14 +2,14 @@
 	{
 		"title":"SK바이오팜",
 		"desc":"작업: 메인,반응형<br>SK바이오팜 사이트를 반응형으로 제작했습니다.",
-		"type":"구분: 반응형 페이지",
+		"type":"구분: 반응형 사이트",
 		"imgUrl":"img/SK1.png",
 		"projectLink":"http://msi0616.dothome.co.kr/portfolio/sk"	
 	},
 	{
 		"title":"OCN",
 		"desc":"작업: 메인,반응형<br>OCN사이트를 반응형으로 제작했습니다.",
-		"type":"구분: 반응형 페이지",
+		"type":"구분: 반응형 사이트",
 		"imgUrl":"img/OCN.png",
 		"projectLink":"http://msi0616.dothome.co.kr/portfolio/ocn"
 	},
@@ -22,8 +22,8 @@
 	},
 	{
 		"title":"한글과컴퓨터",
-		"desc":"작업: 메인페이지(반응형으로 수정중)<br>한글과 컴퓨터의 사이트를<br>클론코딩 하였습니다.",
-		"type":"구분: 홈페이지",
+		"desc":"작업: 메인,반응형<br>한글과 컴퓨터의 사이트를<br>클론코딩 하였습니다.",
+		"type":"구분: 반응형 사이트",
 		"imgUrl":"img/hancom.png",
 		"projectLink":"http://msi0616.dothome.co.kr/portfolio/hancom"
 	},
